@@ -1,0 +1,68 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./rohit\ sharma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.536);
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+}
+label,input,button,a{
+    display: block;
+    margin-bottom: 15px;
+}
+form h1{
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: red;
+    border: none;
+}
+button{
+   width: 30%;
+    height: 35px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: none;
+}
+#cont div section button{
+    justify-content: space-between;
+}
+#but{
+display: flex;
+justify-content: space-between;
+}
+#can{
+    background-color: red;
+}
+a{
+    color: white;
+     text-decoration:none ;
+     font-size: 20px;
+}
+#butt{
+    display: flex;
+    justify-content: space-between;
+}
+#user::placeholder{
+    color: gold;
+}
+#pass::placeholder{
+    color: gold;
+}

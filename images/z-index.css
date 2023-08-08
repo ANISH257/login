@@ -1,0 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    position: relative;
+}
+#red{
+    background-color: red;
+    color: orange;
+    position: absolute;
+    top: 0%;
+    z-index: 3;
+}
+#blue{
+    background-color: blue;
+    color: blueviolet;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+#yellow{
+    background-color: yellow;
+    color: gold;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+}

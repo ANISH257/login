@@ -1,0 +1,211 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./netflix\ baground\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:black;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+#nav #left img{
+    width: 18%;
+}
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#nav #right select{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    width: 9rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+}
+#nav #right #sing{
+    width: 40%;
+    height: 1.8rem;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+}
+
+#cent{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+#cent h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#cent h3{
+    font-size: 1.2rem;
+ margin-bottom: 2rem;
+}
+input{
+    width: 23rem;
+    height: 52px;
+    background-color: rgba(0, 0, 0, 0.764);
+    border-color: grey;
+    border-radius: 5PX;
+}
+#A{
+    background-color: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+#A:hover{
+    background-color: rgba(255, 0, 0, 0.852);
+}
+#nav #right #sing:hover{
+    background-color: rgba(255, 0, 0, 0.862);
+}
+#right{
+    position: relative;
+}
+#right i{
+    color: white;
+    position: absolute;
+    left: 3%;
+}
+
+
+#tv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top:30rem;
+}
+#tv div{
+    width: 47%;
+}
+#tv #enjoy h1{
+    font-size: 4.3rem;
+}
+#tv #enjoy p{
+    font-size: 1.5rem;
+}
+#bird{
+position: relative;
+}
+#bird img{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+#bird video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+
+
+#mobile{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 18rem;
+}
+#mobile div{
+    width: 47%;
+}
+#mobile #offline h1{
+    font-size: 3.2rem;
+}
+#mobile #mo section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-left: 9rem;
+    margin-right: 5rem;
+}
+#mobile #mo #over img{
+    height: 5rem;
+    padding-left: 1rem;
+}
+#mobile #mo #over i{
+    padding-right: 2rem;
+
+}
+#mobile #mo img{
+    position: relative;
+}
+
+
+#mac{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top:30rem;
+}
+#mac div{
+    width: 47%;
+}
+#mac #watch h1{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+#mac #watch h2{
+    font-size: 1.5rem;
+}
+#games{
+    position: relative;
+}
+#games img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#games video{
+  
+    position: absolute;
+    top:12%;
+    left:19%;
+    width:63.5%;
+    z-index:1;
+}
+#childern{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 18rem;
+}
+#kids h1{
+    font-size: 3.5rem;
+}
+#kids p{
+    font-size: 1.7rem;
+}
+#mo #over div h4{
+    color: blue;
+    font-size:1rem;
+}
